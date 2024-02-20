@@ -1,6 +1,14 @@
 export function App() {
   return (
-    <h1>Oi</h1>
+    <div className="py-10 space-y-8">
+      <div>header tabs</div>
+      <div>
+        <main className="max-w-6xl mx-auto space-y-5">
+         <h1 className="text-xl font-bold">Tags</h1>
+         <button>Create new</button>
+        </main>
+      </div>
+    </div>
   )
 }
 
